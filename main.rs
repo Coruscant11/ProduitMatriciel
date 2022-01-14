@@ -53,7 +53,7 @@ fn main() {
 
     a.generate_randoms(&mut rng);
     b.generate_randoms(&mut rng);
-    c.generate_randoms(&mut rng);
+    //c.generate_randoms(&mut rng);
 
     for x in 0..N {
         for y in 0..P {

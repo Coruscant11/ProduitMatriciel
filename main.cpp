@@ -54,7 +54,7 @@ int main() {
     Matrice a(N, M), b(M, P), c(N, P);
     a.generateRandoms();
     b.generateRandoms();
-    c.generateRandoms();
+    //c.generateRandoms();
 
     for (int x = 0; x < N; x++) {
         for (int y = 0; y < P; y++) {
